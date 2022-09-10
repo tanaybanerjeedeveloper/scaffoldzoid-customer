@@ -99,9 +99,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
     );
   }
 
-  Stream<List<Seller>> readUsers() => FirebaseFirestore.instance
-      .collection('sellers')
-      .snapshots()
-      .map((snapshot) =>
-          snapshot.docs.map((doc) => Seller.fromJSON(doc.data())).toList());
+  // Stream<List<Seller>> readUsers() => FirebaseFirestore.instance
+  //     .collection('sellers')
+  //     .snapshots()
+  //     .map((snapshot) =>
+  //         snapshot.docs.map((doc) => Seller.fromJSON(doc.data())).toList());
 }

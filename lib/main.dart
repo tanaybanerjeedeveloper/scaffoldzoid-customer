@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       scaffoldMessengerKey: Utils.messengerKey,
       navigatorKey: navigatorKey,
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),

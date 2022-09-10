@@ -34,6 +34,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     // SizedBox(
                     //   height: 100,
                     // ),
+                    Text(
+                      'SCAFFOLDZOID INC',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+                    ),
                     TextFormField(
                       controller: emailController,
                       decoration: InputDecoration(labelText: 'Email'),
